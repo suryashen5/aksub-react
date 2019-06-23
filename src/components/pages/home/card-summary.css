@@ -1,0 +1,45 @@
+.card-summary-container {
+    display: flex;
+}
+
+.card-summary-block {
+    flex-grow: 1;
+    margin: 10px 30px 10px 30px;
+}
+
+.card-summary-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.card-summary-footer {
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.card-summary-icon{
+    opacity: 0.3;
+}
+
+.text-color-white{
+    color:white;
+    margin:0;
+}
+
+.bg-aqua{
+    background-color: #00c0ef;
+}
+
+.bg-green{
+    background-color: #00a65a;
+}
+
+.bg-yellow{
+    background-color: #f39c12;
+}
+
+.bg-orange{
+    background-color: #dd4b39;
+}
