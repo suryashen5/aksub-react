@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter} from 'react-router-dom'
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -11,7 +12,12 @@ import '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/free-brands-svg-icons'
 
-ReactDOM.render( < App /> , document.getElementById('root'));
+require("./api-mock");
+
+ReactDOM.render( 
+<BrowserRouter>
+< App />
+</BrowserRouter> , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
